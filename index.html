@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Резюме — Янович Микола</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button id="theme-toggle">Змінити тему</button>
+        <h1>Янович Микола</h1>
+        <p><strong>Посада:</strong> Python Developer | Telegram Bot Creator | Entrepreneur</p>
+        <p><strong>Локація:</strong> Львів, Україна | <strong>Telegram:</strong> @twisthubx</p>
+        <hr>
+    </header>
+
+    <main>
+        <section>
+            <h2>Професійне резюме</h2>
+            <p>
+                Цілеспрямований розробник із фокусом на автоматизацію процесорів за допомогою <strong>Python</strong>. 
+                Маю практичний досвід створення Telegram-ботів та розробки веб-інтерфейсів.
+            </p>
+        </section>
+
+        <section id="comments-section">
+            <h2>Відгуки попередніх роботодавців</h2>
+            <div id="comments-container">Завантаження коментарів...</div>
+        </section>
+
+        <section>
+            <h2>Досвід роботи</h2>
+            <h3>Засновник проєкту "PosterSell" | 2025 – Теперішній час</h3>
+            <ul>
+                <li>Розробка бізнес-моделі для продажу кастомних автомобільних постерів.</li>
+                <li>Створення графічного контенту з акцентом на моделі BMW (M5 F10, F90).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Технічні навички</h2>
+            <table border="1" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th>Категорія</th>
+                        <th>Технології та інструменти</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Мови програмування</strong></td>
+                        <td>Python, JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Веб-технології</strong></td>
+                        <td>HTML5, CSS3, AJAX</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <div id="feedback-modal" class="modal">
+        <div class="modal-content">
+            <h3>Зворотній зв'язок</h3>
+            <form action="https://formspree.io/f/xlgoldbw" method="POST">
+                <input type="text" name="name" placeholder="Ім'я" required> <input type="email" name="email" placeholder="Email" required> <input type="tel" name="phone" placeholder="Номер телефону" required> <textarea name="message" placeholder="Ваше повідомлення (довільна форма)" required></textarea> <div class="modal-buttons">
+                    <button type="submit">Відправити</button> <button type="button" id="close-modal">Закрити</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <hr>
+    <footer>
+        <p><em>Створено у 2026 році в рамках Лабораторної роботи №4 [cite: 1]</em></p>
+        <div id="footer-info"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
